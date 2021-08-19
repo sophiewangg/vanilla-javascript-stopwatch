@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script type="text/javascript" src="./main.js"></script>
+  </head>
+  <body>
+    <div id="time"></div>
+
+    <h1 class="header">Stopwatch</h1>
+    <h2 class="header">Click to start!</h2>
+    <div id="display">00:00:00</div>
+
+    <div id="button-div">
+      <button type="button" id="start" onclick="startStop()">start</button>
+      <button type="button" id="reset" onclick="reset()">reset</button>
+    </div>
+
+    <div id="box1"></div>
+    <div id="box2"></div>
+  </body>
+</html>
